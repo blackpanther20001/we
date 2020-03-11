@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+/* navbaar*/
+nav {
+    padding-left: 7% !important ;
+    padding-right: 8% !important;
+    background-color: #fff ;
+    z-index: 2;
+}
+
+.navbar-brand{
+
+}
+ul .nav-item {
+    font-size: 15px !important;
+    padding-left: 15px;
+}
+
+ .nav-link{
+    color: #333 !important;
+    font-weight: 400;
+}
+.nav ul li a:hover{
+    
+}
+.nav-link:hover{
+    color: #4285f4 !important; 
+}
+/*end nav bar*/
+
+/*start header*/
+.header{
+    position: relative;
+    top: 10%;
+padding-top: 13%;
+padding-left: 7%;
+padding-right: 7%
+}
+.header h1{
+    font-size: 50px !important;
+    font-weight: bold;
+}
+.header p {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 2.5 !important;
+}
+.btn {
+   border-radius: 30px !important;
+   font-size: 30px !important;
+}
+.btn:hover{
+    position: relative;
+    bottom: 10px;
+    transition: all ease-in-out  1s;
+}
+
+.back{
+    
+background-position: center !important;
+background-size: contain !important;
+background-repeat: no-repeat !important;
+width: 50vw;
+height: 50vh;
+}
+/*end header*/
+
+/*star image section*/
+#image{
+  padding: 13%;
+}
+#image p {
+    font-weight: 200;
+}
+.text{
+    padding-left: 7% !important ;
+    padding-right: 8% !important;
+    padding-top: 10% !important;
+}
+.text  h1{
+    font-weight: bold;
+}
+.text p {
+    font-weight: 200;
+}
+.card-body{
+    background-color: #eee;
+    width: 36% !important;
+}
+.icon-wrap{
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    border: 1px solid #4285f4;
+    border-radius: 50%;
+    padding: 15px;
+    color:
+    #fff;
+    background-color:
+    #4285f4;
+    top: 28px;
+}
+.edit h3{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 19px;
+}
+.edit p {
+    font-weight: 200;
+}
+.text-primary{
+    color: #fff !important;
+}
+.edit{
+    background-color: #eee;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.edit:hover{
+    background-color: #4285f4;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    transition: all ease-in-out .4s;
+}
+/*end imag section*/
+
+
+.tex{
+    position: relative;
+    top: 50px;
+    left: 23%;
+  
+}
+.tex h1{
+    top: 50px;
+    
+    font-size: 40px; font-weight: bold;
+    
+}
+.tex p {
+    font-weight: 100;
+    line-height: 2.1;
+    font-size: 10pt;
+}
+#feedback{
+    padding:7%;
+}
+/*end feedback*/
+
+/*start about us*/
+#aboutus{
+    padding: 7%;
+    background-color: #eee;
+}
+.head{
+    position: relative;
+    bottom: 30px;
+}
+.head h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/*end about us*/
+
+#contact{
+    padding: 10%;
+}
+
+.comment:hover{
+    background-color: #4285f4;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    border-left: 8px solid #fff;
+}
+
+
+/*start our team section*/
+  
+#our-team{
+padding-left: 7%;
+padding-right: 8%;
+padding-bottom: 10%;
+}
+.title-text{
+    text-align: center;
+    padding-top: 8% !important;
+}
+.team-image{
+    width: 300px;
+
+}
+.overlay{
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+
+    position: relative;
+    bottom: 40px;
+    width: 0;
+    visibility: hidden;
+}
+.edit-text{
+    color: #fff;
+}
+.img:hover .overlay{
+    width: 85%;
+    transition: ease-in-out 0.5s;
+    visibility: visible;
+}
+.card-text h3{
+    font-size: 20pt;
+    font-weight: 300;
+}
+.card-text p {
+    font-weight: 100;
+    color: gray;
+}
+
+#contact{
+    padding: 15%;
+    background: linear-gradient(178deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
+}
+
+
+/*end our team section*/
